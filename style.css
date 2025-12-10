@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+main {
+  height: 100vh;
+  background-color: #19a1ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+div.card {
+  width: 350px;
+  height: 374px;
+  background-color: white;
+  border-radius: 15px;
+}
+div.photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.victor {
+  margin-top: -30px;
+  width: 96px;
+  height: 96px;
+}
+.h {
+  display: flex;
+  gap: 8.5px;
+  justify-content: center;
+}
+h1 {
+  width: 104px;
+  height: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e3349;
+}
+.h span {
+  width: 22px;
+  height: 18px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b7082;
+  padding-top: 12px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  color: #6b7082;
+
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.line {
+  width: 350px;
+  height: 1px;
+  color: #e8e9ec;
+}
+.parent {
+  height: 20px;
+  display: flex;
+  gap: 46px;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+}
+h2 {
+  height: 18px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e3349;
+  margin: 0;
+}
+.parent span {
+  height: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  color: #6b7082;
+  padding-top: 5px;
+}
